@@ -1,0 +1,35 @@
+body {
+    background-color: cadetblue;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5c62c09c4d546e27dc1016c7/1557345265307-4TDFEUJX3YYSXZ0UX7GC/NEW_Chris_postcard-4inx6in-h-front+rgb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    margin-top: 20px;
+    margin-right: 40px;
+    width: 800px;
+    background-color: rgba(168, 45, 47, .75);
+    border: 2px solid black;
+    padding: 20px;
+    float: right;
+    color: #fff;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    font-size: 26px;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
