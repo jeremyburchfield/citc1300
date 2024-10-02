@@ -1,0 +1,263 @@
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .w-layout-blockcontainer {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .w-layout-blockcontainer {
+    max-width: none;
+  }
+}
+
+.section---hero {
+  background-color: #686868;
+  background-image: linear-gradient(#0009, #0009), url('../images/cheese_bg.jpeg');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  border-left: 50px solid #ecaa38;
+  border-right: 50px solid #ecaa38;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 60px;
+}
+
+.section---sponsors {
+  color: #5a5a5a;
+  background-color: #b8b8b8;
+  border-left: 50px solid #ecaa38;
+  border-right: 50px solid #ecaa38;
+  margin-top: 0;
+  padding: 0 0 20px;
+}
+
+.body {
+  color: #fff;
+  background-image: url('../images/bg.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Open Sans, sans-serif;
+}
+
+.p-hero {
+  margin-top: 55px;
+  margin-right: 60px;
+  padding-top: 0;
+  padding-right: 0;
+}
+
+.image-hero {
+  margin-top: 40px;
+  display: block;
+}
+
+.button-hero {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #ecaa38;
+  border-radius: 5px;
+  width: 200px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+  display: block;
+}
+
+.button-hero:hover {
+  color: #fff;
+  background-color: #ecaa38d9;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.image---logo {
+  float: left;
+  margin: 10px 10px 10px 40px;
+}
+
+.button---nav {
+  float: right;
+  text-align: center;
+  background-color: #ecaa38;
+  border-radius: 5px;
+  min-width: 150px;
+  min-height: 40px;
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-right: 20px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+}
+
+.button---nav:hover {
+  background-color: #ecaa38ab;
+}
+
+.heading---one {
+  color: #ecaa38;
+  margin-top: 40px;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.section---nav {
+  background-color: #3b3b3b;
+  border-top: 1px solid #000;
+  border-left: 50px solid #ecaa38;
+  border-right: 50px solid #ecaa38;
+}
+
+.navbar {
+  background-color: #ddd0;
+}
+
+.brand {
+  margin: 10px 10px 10px 40px;
+}
+
+.nav-menu {
+  margin-top: 30px;
+  margin-right: 40px;
+}
+
+.nav-link---main-nav {
+  color: #fff;
+  text-align: center;
+  background-color: #ecaa38;
+  border-radius: 5px;
+  width: 125px;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.nav-link---main-nav:hover {
+  background-color: #ecaa38bf;
+}
+
+.image {
+  float: none;
+}
+
+.heading {
+  float: left;
+}
+
+.heading---two {
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000;
+  background-color: #ecaa38;
+  border: 4px #000;
+  border-bottom: 1px solid #000;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 20px;
+  padding-bottom: 14px;
+}
+
+.sponser---col {
+  border: 2px #000;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sponser---logos {
+  margin: 25px auto;
+  padding-left: 20px;
+}
+
+.section---events {
+  background-color: #b8b8b8;
+  border-left: 50px solid #ecaa38;
+  border-right: 50px solid #ecaa38;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+.heading---three {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 1px #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.columns {
+  margin-top: 20px;
+}
+
+.img {
+  border: 4px solid #ecaa38;
+  border-radius: 10px;
+  margin: 40px auto 0;
+  padding-bottom: 0;
+  display: block;
+}
+
+.paragraph_gen {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.section---copyright {
+  background-color: #3b3b3b;
+  border-bottom: 50px solid #ecaa38;
+  border-left: 50px solid #ecaa38;
+  border-right: 50px solid #ecaa38;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  background-color: #909090;
+}
+
+.copy_p {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+
+.logo_footer {
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 0;
+  display: block;
+}
+
+.heading-2 {
+  text-align: center;
+}
+
+@media screen and (max-width: 479px) {
+  .container {
+    margin-top: 0;
+  }
+}
